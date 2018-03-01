@@ -109,6 +109,9 @@ else
   fi
 
   chmod 777 ./delegate/tmp/
-
+  mkdir -m 777 /tmp/delegate
+  mkdir -m 777 /tmp/delegate/adm
+  mkdir -m 777 /tmp/delegate/cache
+  mkdir -m 777 /tmp/delegate/tmp
   ./delegate/delegated -r ${DELEGATE_OPTION} -P${PORT} +=/app/delegate/delegate.conf
 fi
