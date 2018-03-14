@@ -12,6 +12,6 @@
   ,
   "scripts":
   {
-    "post-install-cmd" : "bash ./80_install/post_install_main.sh"
+    "post-install-cmd" : "bash ./80_install/post_install.sh"
   }
 }
