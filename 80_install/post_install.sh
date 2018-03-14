@@ -5,6 +5,8 @@ set -x
 date
 start_date=$(date)
 
+chmod +x start_web.sh
+
 wget -O dropbox.py https://www.dropbox.com/download?dl=packages/dropbox.py
 chmod +x dropbox.py
 
