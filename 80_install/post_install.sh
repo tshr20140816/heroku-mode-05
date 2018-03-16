@@ -24,7 +24,7 @@ CREATE TABLE t_downloads
 (
  url character varying(512) PRIMARY KEY
 ,file_name character varying(255) NOT NULL
-,status int
+,status int DEFAULT 0 NOT NULL
 ,create_time timestamp DEFAULT localtimestamp NOT NULL
 )
 __HEREDOC__
